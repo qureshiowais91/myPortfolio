@@ -4,7 +4,7 @@ import { Navigation } from './components/UI/Navigation';
 function App() {
   return (
     <div>
-      Text ME
+      Under Development
       <Navigation></Navigation>
     </div>
   );
