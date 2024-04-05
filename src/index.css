@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +70,28 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@layer components {
+   .sidebars-icon {
+    @apply relative flex items-center justify-center 
+    h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800
+    text-green-500 hover:bg-green-600  hover:rounded-xl rounded-3xl  ease-linear
+    transition-all duration-200 cursor-pointer;
+   }
+
+
+   .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+    text-white bg-gray-900 
+    text-xs font-bold 
+    transition-all duration-100 scale-0 origin-left;
+  }
+
+
+
+
+
+
+}
+
+
