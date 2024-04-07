@@ -29,8 +29,7 @@ const ExperienceSection: React.FC = () => {
         <p className='text-gray-700 mb-1'>Jun 2023 - Nov 2023 (6 months)</p>
         <div className='pl-6'>
           <p>Fixing bugs and issues within the product</p>
-          <p>Developing new features based on client requirements</p>
-          <p>Utilizing JavaScript to write efficient and effective code</p>
+          <p>Utilizing Nodejs and Backend technologies to write efficient and effective code</p>
           <p>Collaborating with team members to ensure product functionality</p>
           <p>Continuously learning and improving skills</p>
         </div>
