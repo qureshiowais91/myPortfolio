@@ -1,9 +1,9 @@
-import Sidebar from '../SideBar/Sidebar';
+import Sidebar from './SideBar/Sidebar';
 
 export const Navigation = () => {
   return (
     <div>
-      <Sidebar/>
+      <Sidebar />
     </div>
   );
 };
