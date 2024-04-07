@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Aboutme = () => {
   return (
-    <div className='m-3'>
+    <div className='grid justify-center'>
       <img
         src='https://placehold.co/250x250'
         className='rounded-full m-6'

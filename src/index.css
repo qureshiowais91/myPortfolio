@@ -50,9 +50,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -63,28 +65,24 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
 }
 
 @layer components {
-   .sidebars-icon {
-    @apply relative flex items-center justify-center 
-    h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800
-    text-green-500 hover:bg-green-600  hover:rounded-xl rounded-3xl  ease-linear
-    transition-all duration-200 cursor-pointer;
-   }
+  .sidebars-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg bg-gray-800 text-green-500 hover:bg-green-600 hover:rounded-xl rounded-3xl ease-linear transition-all duration-200 cursor-pointer;
+  }
 
 
-   .sidebar-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
-    text-white bg-gray-900 
-    text-xs font-bold 
-    transition-all duration-100 scale-0 origin-left;
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
 
 
@@ -93,5 +91,3 @@ button:focus-visible {
 
 
 }
-
-
