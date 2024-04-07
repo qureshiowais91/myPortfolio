@@ -14,7 +14,7 @@ import { NavLink } from 'react-router-dom';
 function Sidebar() {
   return (
     <div className='fixed top-0 left-0 h-screen w-16 flex-col flex bg-gray-900 text-white shadow-lg'>
-      <NavLink to='/Home'>
+      <NavLink to='/'>
         <SideBarIcon icon={<CiHome />} />
       </NavLink>
       {/* <SideBarIcon icon={<AiFillCode />} /> */}

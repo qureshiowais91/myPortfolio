@@ -31,7 +31,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <React.Fragment>
       <Route path='/' element={<App />}>
-        <Route path='/Home' element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='/Project' element={<ProjectPage />} />
         <Route path='/Blog' element={<BlogPage />} />
       </Route>
