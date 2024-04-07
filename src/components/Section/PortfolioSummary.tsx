@@ -2,9 +2,25 @@ import React from 'react';
 
 const ExperienceSection: React.FC = () => {
   return (
-    <div className='max-w mx-auto p-6 bg-white rounded-lg shadow-md'>
+    <div className='max-w-xl mx-auto p-6 bg-white rounded-lg shadow-md'>
       <h3 className='text-xl font-semibold mb-4 text-blue-600'>Experience</h3>
 
+
+      <div className='mb-6'>
+        <p className='text-blue-600 font-semibold text-lg'>Freelancer</p>
+        <p className='text-gray-700 mb-1'>Currently Working</p>
+        <p className='text-gray-700 mb-1'>Nov 2023 - Present</p>
+        <div className='pl-6'>
+          <p>
+            Working as a freelancer on various projects involving web
+            development, software development, and automation.
+          </p>
+          <p>
+            Providing custom solutions using a wide range of technologies,
+            including JavaScript, Python, Node.js, and more.
+          </p>
+        </div>
+      </div>
       <div className='mb-6'>
         <p className='text-blue-600 font-semibold text-lg'>
           Full Stack Developer
@@ -74,6 +90,8 @@ const ExperienceSection: React.FC = () => {
           </p>
         </div>
       </div>
+
+     
     </div>
   );
 };
